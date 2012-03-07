@@ -1,0 +1,8 @@
+mvn archetype:generate -DarchetypeCatalog=http://cocoon.apache.org
+2,1.0.0,cocoonBlockOne, ....
+cd cocoonBlockOne
+mvn eclipse:eclipse
+import to Eclipse
+mvn jetty:run (in Eclipse, right click pom.xml->debug as Maven Build...-> in Goal [jetty:run]
+http://localhost:8888/cocoonBlockOne/
+
